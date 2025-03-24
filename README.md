@@ -29,6 +29,8 @@ This project explores an autocomplete API running at `http://35.200.185.69::8000
 
 ## Findings
 - API accepts queries via `/v1/autocomplete?query=<string>`.
+- API accepts queries via `/v2/autocomplete?query=<string>`.
+- API accepts queries via `/v3/autocomplete?query=<string>`.
 - Responses contain a list of suggested names based on the provided prefix.
 - Potential rate limits may apply (to be confirmed during testing).
 
